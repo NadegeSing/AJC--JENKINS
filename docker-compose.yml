@@ -1,0 +1,11 @@
+name: demo-compose
+
+services:
+  web:
+    build: .
+    container_name: demo-web
+
+    ports:
+      - 8089:80
+
+  
